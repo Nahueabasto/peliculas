@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    height: 100px;
+    background-color: #f3efef;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+header a,
+header h1 {
+  margin-right: 10px;
+}
+
+.card-home {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 30px;
+  }
+
