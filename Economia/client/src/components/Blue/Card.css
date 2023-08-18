@@ -1,0 +1,74 @@
+/* .project-heading {
+  text-align: center;
+  padding: 7rem 0 2rem 0;
+}
+
+.project-container {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+  
+} */
+
+.project-card {
+  background: #444;
+  padding: 1.2rem 1rem;
+  border: white solid 2px;
+  max-width: 500px;
+  border-radius: 10px;
+  
+}
+
+h4{
+  text-align: center;
+  
+}
+
+.dos-component{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+  grid-gap: 40px;
+}
+
+.compra {
+  text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+.compra a,
+.compra h2 {
+  display: block; /* Cambiar a un elemento de bloque para que ocupen todo el ancho disponible */
+  margin: 0px auto; /* Agregar margen arriba y abajo y centrar horizontalmente */
+}
+
+.venta{
+  text-align: center;
+}
+
+.venta a,
+.venta h2{
+  display: block; /* Cambiar a un elemento de bloque para que ocupen todo el ancho disponible */
+  margin: 0px auto;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-title {
+  color: azure;
+  padding: 1rem 0;
+}
+
+
+
+@media screen and (max-width: 740px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}

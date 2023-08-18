@@ -1,0 +1,9 @@
+form{
+    display: flex;
+    height: 100px;
+    background-color: #858383;
+    align-items: center;
+    justify-content: space-between; /* Agrega espacio entre .text-nav y .createnote */
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
