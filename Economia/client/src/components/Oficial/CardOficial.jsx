@@ -1,11 +1,11 @@
 import React from "react";
-import "./Card.css";
+import "../Blue/Card.css";
 
-export default function CardBlue({ value_buy, value_sell }) {
+export default function CardOficial({ value_buy, value_sell }) {
   return (
     <div className="project-card">
       
-      <h4>Dolar Blue</h4>
+      <h4>Dolar Oficial</h4>
       <div className="dos-component">
       <div className="compra">
       <a>compra</a>
@@ -19,5 +19,3 @@ export default function CardBlue({ value_buy, value_sell }) {
     </div>
   );
 }
-
-

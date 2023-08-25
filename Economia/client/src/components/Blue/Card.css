@@ -1,18 +1,3 @@
-/* .project-heading {
-  text-align: center;
-  padding: 7rem 0 2rem 0;
-}
-
-.project-container {
-  max-width: 1040px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
-  padding-bottom: 5rem;
-  
-} */
-
 .project-card {
   background: #444;
   padding: 1.2rem 1rem;
@@ -59,7 +44,7 @@ h4{
 }
 
 .project-title {
-  color: azure;
+  color: rgb(41, 192, 3);
   padding: 1rem 0;
 }
 

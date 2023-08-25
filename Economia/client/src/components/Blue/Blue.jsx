@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import CardBlue from "./CardBlue";
 import { useDispatch, useSelector } from "react-redux";
 import { getDolar } from "../../Redux/Actions";
+import "./Blue.css";
 
 export default function Blue() {
   const dispatch = useDispatch();
@@ -12,11 +13,11 @@ export default function Blue() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="blue">
       {dolarblue.blue && (
         <CardBlue
-          value_avg={dolarblue.blue.value_avg}
-          value_sell={dolarblue.blue.value_sell}
+        value_buy={dolarblue.blue.value_buy}
+        value_sell={dolarblue.blue.value_sell}
         />
       )}
     </div>

@@ -4,7 +4,7 @@ export const GET_DOLAR = 'GET_DOLAR';
 
 export function getDolar(){
     return async function(dispatch){
-        var json = await axios.get("http://localhost:3001/dolar",{
+        var json = await axios.get("/dolar",{
         })
         return dispatch({
             type: GET_DOLAR,
